@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="header">
+        <h1>Let's Cook:</h1>
+        <input type= "text" placeholder = "Enter minutes.." id="time" >
+    </div>
+
+<div id="container">
+
+<div id="clock">
+    <img id="newclock" src="newclock.png" alt="clock" width="800px">   
+</div>
+    <div id="par">
+<p id="timer"></p>
+    </div>
+
+</div> 
+
+    <div id="button">
+    <button id="btn">Start Timer</button>
+    </div>
+
+    <audio id="music" autoplay loop>
+        <source src="cooking_sound.mp3" type="audio/mp3">
+     </audio>
+
+<script src="script.js"></script>
+</body>
+</html>
